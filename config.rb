@@ -11,18 +11,6 @@ require 'susy'
 # end
 
 ###
-# Haml
-###
-
-# CodeRay syntax highlighting in Haml
-# First: gem install haml-coderay
-# require 'haml-coderay'
-
-# CoffeeScript filters in Haml
-# First: gem install coffee-filter
-# require 'coffee-filter'
-
-###
 # Page command
 ###
 
