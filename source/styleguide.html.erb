@@ -1,6 +1,63 @@
-<h1>Heading One</h1>
-<h2>Heading Two</h2>
-<h3>Heading Three</h2>
-<h4>Heading Four</h4>
-<h5>Heading Five</h5>
-<h6>Heading Six</h6>
+<h1>Style Guide</h1>
+
+<h2>HTML Elements</h2>
+
+<h3>Headings</h3>
+
+<h1>This is a h1 or a .h1</h1>
+<h2>This is a h2 or a .h2</h2>
+<h3>This is a h3 or a .h3</h3>
+<h4>This is a h4 or a .h4</h4>
+<h5>This is a h5 or a .h5</h5>
+<h6>This is a h6 or a .h6</h6>
+
+<h3>Text</h3>
+
+<p>
+  This is normal text. The next few sentences are all part of a paragraph.
+  <strong>This is bold text (<code>strong</code>).</strong>
+  <em>This is emphasised text (<code>em</code>).</em>
+  <a href="#">This is a link.</a>
+</p>
+
+<h3>Lists</h3>
+
+<ul>
+  <li>Unordered list item</li>
+  <li>Unordered list item</li>
+  <li>
+    Unordered list item with a nested list&hellip;
+    <ul>
+      <li>Nested unordered list item</li>
+      <li>Nested unordered list item</li>
+    </ul>
+  </li>
+  <li>Unordered list item</li>
+</ul>
+
+<ol>
+  <li>Ordered list item</li>
+  <li>Ordered list item</li>
+  <li>
+    Ordered list item with a nested list&hellip;
+    <ol>
+      <li>Nested ordered list item</li>
+      <li>Nested ordered list item</li>
+      <li>
+        Ordered list item with a nested list&hellip;
+        <ol>
+          <li>Nested ordered list item</li>
+          <li>Nested ordered list item</li>
+        </ol>
+      </li>
+    </ol>
+  </li>
+  <li>Ordered list item</li>
+</ol>
+
+<h2>Modules</h2>
+
+<p>This is where you should render any modules you create for your project. A module should have a corresponding HTML partial in <code>source/modules</code> and its own Sass partial in <code>source/stylesheets/modules</code>.
+
+<h3>Example Module</h3>
+<%= partial 'modules/example-module' %>

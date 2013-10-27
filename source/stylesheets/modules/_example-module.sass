@@ -1,0 +1,19 @@
+%example-module
+  +trailer(1)
+  background: $yellow-light
+  border-radius: 10px
+  padding: pxtoem(40px)
+  text-align: center
+  
+  +at-breakpoint($tablet-only)
+    +span-columns(4)
+  
+  +at-breakpoint($desktop-and-above)
+    +span-columns(6)
+
+.example-module
+  @extend %example-module
+  
+.example-module--is-omega
+  @extend %example-module
+  +omega
