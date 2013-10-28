@@ -12,5 +12,10 @@ It's for people who prefer ERB to Haml, and who like [BEM](http://bem.info/), [S
 - `$ cd my_sweet_project && bundle exec middleman server`
 - Make something *awesome*.
 
+### Is there a build preview anywhere?
+[Yep.](http://middleman.tombryan.co/)
+
 ### lolwut?
-**Stop.** This is still very much a WIP and **also** it is put together for the way *I* like to do things. If *you* like to do things a different way you should just do that and *stop yelling at me*.
+**Stop.** This is still a WIP and **also** it is put together for the way *I* like to do things. If *you* like to do things a different way you should just do that and *stop yelling at me*.
+
+Pull requests are welcome.
