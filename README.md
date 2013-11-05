@@ -14,7 +14,7 @@ It's for people who prefer ERB to Haml, and who like [BEM](http://bem.info/), [S
 
 Alternatively, you can (re)use this template like a pro by cloning it into `~/middleman` and using the template argument when you initialize a new project:
 
-- `$git clone http://github.com/tombryan/middleman_starter.git ~/.middleman/middleman_starter`
+- `$ git clone http://github.com/tombryan/middleman_starter.git ~/.middleman/middleman_starter`
 - `$ middleman init my_sweet_project --template=middleman_starter`
 
 ### Is there a build preview anywhere?
