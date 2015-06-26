@@ -61,7 +61,7 @@ end
 
 # Build-specific configuration
 configure :build do
-    
+
   # For example, change the Compass output style for deployment
   # activate :minify_css
 
@@ -72,7 +72,7 @@ configure :build do
   # activate :cache_buster
 
   # Use relative URLs
-  # activate :relative_assets
+  activate :relative_assets
 
   # Compress PNGs after build
   # First: gem install middleman-smusher
@@ -82,4 +82,3 @@ configure :build do
   # Or use a different image path
   # set :http_path, "/Content/images/"
 end
-
