@@ -1,5 +1,5 @@
-My Middleman Starter
-====================
+Middleman Starter
+=================
 
 Ain't nothin' but a project starter template for the [Middleman static site generator](http://middlemanapp.com/) that sort of steals a bit from [Nathan Henderson's Amicus](https://github.com/nathos/amicus) and [Ben Smithett's Style](https://github.com/bensmithett/style).
 
