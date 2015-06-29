@@ -1,13 +1,12 @@
-%example-module
+.example-module
   +trailer(1)
   background: $yellow-light
   border-radius: 10px
   padding: pxtoem(40px)
   text-align: center
 
-.example-module
-  @extend %example-module
+  .breakpoint-desktop &
+    +span(6 of 12)
 
-.example-module--is-omega
-  @extend %example-module
-  +omega
+    &:nth-child(odd)
+      +omega
